@@ -1,0 +1,126 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background: #f2f2f2;
+  color: #333333;
+}
+
+div {
+  display: block;
+}
+
+ul.navbar {
+  list-style-type: none;
+  margin: 0px 0px 10px 0px;
+  padding: 0;
+  overflow: hidden;
+  /*background-color: rgba(232,230,230,0.18);*/
+  /*background-color: transparent;*/
+}
+
+li.navbar-elem {
+  float: right;
+}
+
+li > a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  background-color: #a64bf4;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: #A9A9A9;
+  /*opacity: 0.2;*/
+  /*color: black;*/
+}
+
+#container-home {
+  width: 800px;
+  min-height: 300px;
+  background: #ffffff;
+  margin: auto;
+  padding: 40px 50px;
+}
+
+#container-form {
+  max-width: 700px;
+  width: 70%;
+  background: #ffffff;
+  margin: auto;
+  border-radius: 2px;
+  padding: 40px 50px;
+  box-shadow: 0 5px 10px 0px rgba(0, 0, 0, 0.1);
+}
+
+.input_wrap {
+  padding: 10px 0 0 0;
+  margin-bottom: 35px;
+  border-bottom: 2px solid #adadad;
+}
+
+.input_wrap_sel {
+    border-bottom: 2px solid #333333;
+}
+
+input::placeholder {
+  color: #adadad;
+}
+
+input:focus::placeholder {
+  color: transparent;
+}
+
+input {
+  height: 45px;
+  width: 100%;
+  background: transparent;
+  display: block;
+  /*padding: 0 5px 0 45px;*/
+  padding: 0 5px;
+  color: #555555;
+  font-size: 15px;
+  outline: none;
+  border: none;
+  overflow: visible;
+}
+
+#container-button {
+  width: 300px;
+}
+
+.listReq {
+  padding-bottom: 25px;
+}
+
+button {
+  font-size: 15px;
+  color: #ffffff;
+  text-transform: uppercase;
+  justify-content: center;
+  width: 100%;
+  height: 50px;
+  margin: 10px 0;
+  background: #a64bf4;
+  border: none;
+}
+
+button:hover {
+  background-color: #A9A9A9;
+}
+
+#signup_option {
+  font-size: 13px;
+  text-align: center;
+  margin: 5px 0 0 0;
+}
+
+#container-logout {
+  float: right;
+}
